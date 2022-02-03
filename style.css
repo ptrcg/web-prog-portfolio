@@ -205,6 +205,7 @@ nav ul li a:hover {
 .names {
   display: flex;
   visibility: hidden;
+  margin-left: 200px;
 }
 .names h2 {
   color: #fff;
