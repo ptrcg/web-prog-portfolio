@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel='stylesheet' href='style.css'>
+    <link rel='stylesheet' href='../lib/leaflet/leaflet.css'>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+
+</head>
+<body>
+
+    <!-- header -->
+    <section id="landing__area" class="container__center">
+        <nav class="center__row">
+            <h1 class="logo"><i class="fas fa-kiwi-bird"></i> BirdCare</h1>
+            <ul class="center__row">
+                <li><a href="#help">Volunteer</a></li>
+                <li><a href="#help">Donate</a></li>
+                <li><a href="#birdMap">Bird Sightings</a></li>
+            </ul>
+        </nav>
+        <div class="landing__content center__row">
+            <div class="landing__info align__left">
+                <h1>
+                    Together we can <br>
+                    save the Birds.
+                </h1>
+                <p>Out of the approximately 11,154 known bird species, 1.4% have become extinct, 2%are critically endangered, 4.1% are endangered, 7.2% are vulnerable and 9.1% are near threatened.</p>
+
+            </div>
+            <div class="image__pet"></div>
+        </div>
+    </section>
+
+    <!-- how to help the birds -->
+    <section id="help" class="container__center">
+        <h1>How to help the Birds</h1>
+        <div class="help__cards--container center__row">
+            <div class="help__card container__center">
+                <span class="card__title">Volunteering</span>
+                <h3>Be part of the team helping the birds</h3>
+                <p>Offering a helping hand to save the Birds from extinction will require a lot of dedication and hard work. <br> <br>If you're interested, send us a message at birdCare@gmail.com
+                </p>
+            </div>
+            <div class="help__card container__center">
+                <span class="card__title">Charity</span>
+                <h3>Help the Animal Care Foundation</h3>
+                <p>Every little penny surely goes a long way. 100% of your donation will be to fund our project in saving the Birds.<br> <br>If you're interested, send us a message at birdCare@gmail.com</p>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- bird sightings -->
+    <section id="sightings" class="container__center">
+        <h1>Recent Bird sightings in the Philippines</h1>
+        <div class="help__cards--container center__row">
+            <!-- INSERT MAP HERE -->
+            <div id='birdMap'></div>
+        </div>
+        <div>
+            <button class='btn map-button1' id='buttonPREV'>PREV</button>
+            <button class='btn map-button2' id='buttonNEXT'>NEXT</button>
+        </div>
+    </section>
+   
+    <footer>
+        <div class="footer__cont center__row">
+            <p>2022 &copyBirdCare</p>
+            <div>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script type='module' src='./scripts/main.js'></script>
+</body>
+</html>
