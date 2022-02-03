@@ -165,3 +165,8 @@ nav ul li a {
   outline: none;
   border-radius: 15px;
 }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 90%;
+}
